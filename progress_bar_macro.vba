@@ -65,6 +65,7 @@ Sub add_progress_bar()
             s.Fill.ForeColor.RGB = RGB(0, 151, 218)
             ' set edge line
             s.Line.ForeColor.RGB = RGB(200, 200, 200)
+            s.Line.Weight = linewidth
             s.Name = "PB" & X ' set name of rectangles
             s.Shadow.Visible = msoFalse
             
